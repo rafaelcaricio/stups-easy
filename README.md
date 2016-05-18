@@ -24,6 +24,10 @@ $ python3 setup.py install
 
 STUPS Easy is a tool to help you remember stups commands easily.
 
+``` shell
+$ easy artifacts list bus
+```
+
 Available subcommands that translates to STUPS tools:
 
  - `login`: Use
@@ -44,3 +48,7 @@ Available subcommands that translates to STUPS tools:
  - `versions`: Use
    [`kio`](https://docs.stups.io/en/latest/components/kio.html)
    application registry for managing versions.
+
+All subcommands arguments are passed to the subcommands directly so
+you do not need to wait for STUPS Easy to get updated to use something
+new in the original command line STUPS tools.
