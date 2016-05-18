@@ -22,7 +22,7 @@ def artifacts_cmd(subcommands: list):
     pierone = CliWrapper('pierone')
     subcommands = subcommands[1:]
 
-    if len(subcommands) > 1 and 'list' == subcommands[0]:
+    if len(subcommands) > 0 and 'list' == subcommands[0]:
         subcommands[0] = 'artifacts'
 
     pierone._execute(subcommands)
