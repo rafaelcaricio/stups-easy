@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import sys
+from typing import Optional
 from subprocess import PIPE, Popen
 
 
@@ -17,7 +18,7 @@ class CliWrapper:
             print(stdout.decode())
 
 
-def artifacts_cmd(subcommands):
+def artifacts_cmd(subcommands: list):
     pierone = CliWrapper('pierone')
     subcommands = subcommands[1:]
 
@@ -27,32 +28,32 @@ def artifacts_cmd(subcommands):
     pierone._execute(subcommands)
 
 
-def deploy_cmd(subcommands):
+def deploy_cmd(subcommands: list):
     senza = CliWrapper('senza')
     senza._execute(subcommands[1:])
 
 
-def mai_cmd(subcommands):
+def mai_cmd(subcommands: list):
     mai = CliWrapper('mai')
     mai._execute(subcommands[1:])
 
 
-def piu_cmd(subcommands):
+def piu_cmd(subcommands: list):
     piu = CliWrapper('piu')
     piu._execute(subcommands[1:])
 
 
-def fullstop_cmd(subcommands):
+def fullstop_cmd(subcommands: list):
     fullstop = CliWrapper('fullstop')
     fullstop._execute(subcommands[1:])
 
 
-def kio_cmd(subcommands):
+def kio_cmd(subcommands: list):
     kio = CliWrapper('kio')
     kio._execute(subcommands)
 
 
-def kio_applications_cmd(subcommands):
+def kio_applications_cmd(subcommands: list):
     kio = CliWrapper('kio')
     subcommands[0] = 'applications'
     kio._execute(subcommands)
@@ -80,7 +81,7 @@ COMMAND_DESCRIPTIONS = {
 }
 
 
-def help_cmd(*subcommands):
+def help_cmd(*subcommands: Optional[list]):
     print('Available options:')
     col_width = max(len(x) for x in COMMAND_WRAPPERS)
     for subcommand in sorted(COMMAND_WRAPPERS):

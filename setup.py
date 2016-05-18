@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
-from dory.version import VERSION
+from easy.version import VERSION
 
 setup(
-    name='stups-dory',
+    name='stups-easy',
     packages=find_packages(),
     version=VERSION,
-    description='Dory to never forget STUPS commands.',
+    description='Easy to never forget STUPS commands.',
     author='Zalando SE',
-    url='https://github.bus.zalan.do/rcaricio/stups-dory',
+    url='https://github.bus.zalan.do/rcaricio/stups-easy',
     license='Apache License Version 2.0',
     install_requires=[],
     tests_require=['pytest', 'pytest-cov'],
@@ -18,6 +18,6 @@ setup(
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
     ],
-    long_description='Dory to never forget STUPS commands.',
-    entry_points={'console_scripts': ['dory = dory.run:main']},
+    long_description='Easy to never forget STUPS commands.',
+    entry_points={'console_scripts': ['easy = easy.run:main']},
 )
