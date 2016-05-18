@@ -3,7 +3,7 @@ Easy to never forget STUPS commands.
 
 ![Dory](https://nerdreactor.com/wp-content/uploads/2015/08/finding_nemo_dory_marlin-800x381.jpg)
 
-## Porpose
+## Purpose
 
 STUPS Easy is a tool to break the berrier for newbies of getting to
 know each of the command line tools necessary to use STUPS
