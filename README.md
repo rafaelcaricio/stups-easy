@@ -1,6 +1,7 @@
 # STUPS Easy
 Easy to never forget STUPS commands.
-![Dory](https://2.bp.blogspot.com/-DggOtQetGGg/UZp03H7JYxI/AAAAAAAAABM/MnO_ekSbugk/s1600/dory.jpg)
+
+![Dory](http://nerdreactor.com/wp-content/uploads/2015/08/finding_nemo_dory_marlin-800x381.jpg)
 
 ## Porpose
 
