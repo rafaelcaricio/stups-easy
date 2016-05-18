@@ -9,7 +9,7 @@ setup(
     author='Zalando SE',
     url='https://github.bus.zalan.do/rcaricio/stups-easy',
     license='Apache License Version 2.0',
-    install_requires=[],
+    install_requires=['stups'],
     tests_require=['pytest', 'pytest-cov'],
     classifiers=[
         'Programming Language :: Python',
