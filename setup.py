@@ -19,5 +19,5 @@ setup(
         'Operating System :: OS Independent',
     ],
     long_description='Dory to never forget STUPS commands.',
-    entry_points={'console_scripts': ['dory = dory.run:cli']},
+    entry_points={'console_scripts': ['dory = dory.run:main']},
 )
