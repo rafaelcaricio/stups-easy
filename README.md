@@ -26,7 +26,13 @@ $ python3 setup.py install
 STUPS Easy is a tool to help you remember stups commands easily.
 
 ``` shell
-$ easy artifacts list bus
+$ easy deploy create myapp.yaml 1 0.1-SNAPSHOT
+```
+
+Is translated to the STUPS command:
+
+``` shell
+$ senza create myapp.yaml 1 0.1-SNAPSHOT
 ```
 
 Available subcommands that translates to STUPS tools:
