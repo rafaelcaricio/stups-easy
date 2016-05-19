@@ -62,11 +62,11 @@ new in the original command line STUPS tools.
 
 ## Developing
 
-You are free to send pull request to the project or ask for new
+You are free to send pull requests to the project or ask for new
 features opening new issues in this repository. Please just write a
 description of what motivated your change in the Pull Request
 description. If it is a bug/feature request make sure you write down
-your problem, how it would be solved by STUPS Easy and what was the
+your problem, how it would be solved by STUPS Easy, and what was the
 expected behaviour.
 
 ### Running the tests
