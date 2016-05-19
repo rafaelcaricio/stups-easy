@@ -59,3 +59,23 @@ Available subcommands that translates to STUPS tools:
 All subcommands arguments are passed to the subcommands directly so
 you do not need to wait for STUPS Easy to get updated to use something
 new in the original command line STUPS tools.
+
+## Developing
+
+You are free to send pull request to the project or ask for new
+features opening new issues in this repository. Please just write a
+description of what motivated your change in the Pull Request
+description. If it is a bug/feature request make sure you write down
+your problem, how it would be solved by STUPS Easy and what was the
+expected behaviour.
+
+### Running the tests
+
+To run the tests just do:
+
+``` shell
+$ pip install tox
+$ tox
+```
+
+Make sure to run the `tox` command locally before sending your Pull Request.
