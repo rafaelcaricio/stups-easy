@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
-from easy.version import VERSION
+
 
 setup(
     name='stups-easy',
     packages=find_packages(),
-    version=VERSION,
+    version='0.0.1',
     description='Easy to never forget STUPS commands.',
     author='Zalando SE',
     url='https://github.bus.zalan.do/rcaricio/stups-easy',
