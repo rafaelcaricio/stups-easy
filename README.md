@@ -16,7 +16,7 @@ with the tools you most use and can start using it directly.
 ## How to install
 
 ``` shell
-$ git clone git@github.bus.zalan.do:rcaricio/stups-easy.git
+$ git clone git@github.com:zalando-incubator/stups-easy.git
 $ cd stups-easy
 $ python3 setup.py install
 ```
