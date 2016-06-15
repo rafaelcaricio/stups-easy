@@ -21,6 +21,8 @@ $ cd stups-easy
 $ python3 setup.py install
 ```
 
+**ANNOUNCEMENT**: Native packages for [Debian](https://github.com/zalando-incubator/stups-easy/issues/1) and [MacOS](https://github.com/zalando-incubator/stups-easy/issues/2) coming soon.
+
 ## Usage
 
 STUPS Easy is a tool to help you remember stups commands easily.
