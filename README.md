@@ -1,9 +1,6 @@
 # STUPS Easy
 Easy to never forget STUPS commands.
 
-![© Disney/Pixar](https://nerdreactor.com/wp-content/uploads/2015/08/finding_nemo_dory_marlin-800x381.jpg)
-© Disney/Pixar
-
 ## Purpose
 
 STUPS Easy is a tool to break the berrier for newbies of getting to
